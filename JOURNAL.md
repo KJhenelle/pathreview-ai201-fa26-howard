@@ -17,7 +17,7 @@ The repo doesnt currently have a test to verify if large portfolios complete inj
 
 ## Unit 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [TODO: paste the commit link once the reproduction commit is pushed]
+**Reproduction commit link:** [da5079d](https://github.com/KJhenelle/pathreview-ai201-fa26-howard/commit/da5079dadf846b28b49c22f92efca6fbed5cc4f2)
 
 **Reproduction summary:**
 Issue #46 is a missing-test gap, so I reproduced it by confirming that `tests/benchmarks/` contains only `__init__.py` and that `tests/benchmarks/test_ingestion_performance.py` does not exist. Running `pytest tests/benchmarks -v` prints `collected 0 items` / `no tests ran in 56.66s`, so the 30-second ingestion requirement is not enforced anywhere. `pytest-benchmark` 5.3.1 is already installed and the `benchmark` marker is already registered.
