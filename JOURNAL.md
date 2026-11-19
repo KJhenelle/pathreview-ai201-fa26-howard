@@ -47,7 +47,7 @@ CI has not run on the PR yet, so the "all five jobs green" box is still unchecke
 
 ### Check-in 2 (end of week)
 
-**PR link:** [codepath/pathreview-ai201-fa26-howard#101](https://github.com/codepath/pathreview-ai201-fa26-howard/pull/101) (currently a draft; to be marked ready for review before the deadline)
+**PR link:** [codepath/pathreview-ai201-fa26-howard#101](https://github.com/codepath/pathreview-ai201-fa26-howard/pull/101)
 
 **Branch:** `test/46-ingestion-benchmark-pr` (the PR branch, containing only the code commits). My notes branch is `test/46-ingestion-pipeline-benchmark`, which also holds PLAN.md and this journal.
 
@@ -59,4 +59,4 @@ A pytest-benchmark test that ingests a 5-repo + resume portfolio through the rea
 
 **Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
-**Draft PR feedback received from:** none yet
+**Draft PR feedback received from:** none
